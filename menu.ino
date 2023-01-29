@@ -222,7 +222,7 @@ void loop() {
 
 int obtenerNuevoValorTecleado(){
   Serial.println("Funcion 1");
-  nt nuevoValor = 0;
+  int nuevoValor = 0;
   bool salir = false;
   do{
     char tecla_presionada = teclado1.getKey();
